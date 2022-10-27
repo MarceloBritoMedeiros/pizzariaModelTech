@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #003478;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    padding: 8px;
+    list-style: none;
+    margin: .6rem ;
+}
+
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#boas_vindas{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://midias.agazeta.com.br/2021/11/24/pizzas-da-bonta-forno-e-cucina-na-prainha-vila-velha--649867.png");
+    background-size: cover;
+    backdrop-filter: brightness(50%);
+}
+
+#boas_vindas .h_inicio{
+    color: white;
+}
+
+#titulo{
+    color: #003478;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#pizzas{
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+
+.pizza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 5px;
+    background-color: antiquewhite;    
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: #003478;
+    color: white;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.pizza img{
+    width: 70%;    
+}
